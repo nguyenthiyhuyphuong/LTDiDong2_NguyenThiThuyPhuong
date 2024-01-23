@@ -107,9 +107,7 @@ const Signup = () => {
               marginLeft: 40,
             }}
           />
-
           <br />
-
           <Text
             style={{
               fontSize: 15,
@@ -117,12 +115,10 @@ const Signup = () => {
               color: "grey",
               marginTop: 30,
               marginLeft: 40,
-            }}
-          >
+            }}>
             PassWord
           </Text>
           <br />
-
           <view
             style={{
               borderColor: "#E3E3E3",

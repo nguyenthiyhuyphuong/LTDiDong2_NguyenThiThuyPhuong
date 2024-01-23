@@ -23,8 +23,6 @@ export const TabNavigation = () => {
     screeeOptions={{
     headerShown:false,  
     }} >
-     
-    
      <Tab.Screen name="Home" component={Home} options={{headerShown: false,tabBarIcon:({focused})=>{return(
             <View style={{alignItems:"center",justifyContent:"center"}}>
               <FontAwesome name="home" size={24} color="gray" />
